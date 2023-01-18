@@ -1,0 +1,119 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+:root{
+    --blue: #0744F2;
+    --dark-blue: #0038D9;
+    --black:  #000000;
+    --white: #ffff;
+    --grey: #76797E;
+    --text: #11223F;
+    --orange: #FF6400;
+    --red: #EC5252;
+    --bg: #2F5BEA;
+    --bg-banner: #F5F7FF;
+    --text-date: #A2A2A2;
+    --border-search: #4B91F9;
+    --border-bottom: #AFCFFF;
+    --ques-number: #3E3E3E;
+    --text-next: #979797;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Circular Std';
+    
+}
+
+.navbar-header {
+    display: flex;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(7, 68, 242, 0.1);
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    display: flex;
+}
+
+.navbar-logo p {
+    margin-left: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--blue);
+}
+
+.header-logo {
+    width: 60px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    margin-left: 80px;
+}
+
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.header-menu .menu-item {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 25px;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--black) ;
+}
+
+.home {
+    text-shadow: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--blue) ;
+}
+
+.flag img{
+    width: 53px;
+    height: 53px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+}
+
+.button {
+    margin-right: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.login {
+    box-sizing: border-box;
+    width: 80px;
+    height: 40px;
+    border: 1px solid var(--blue);
+    border-radius: 5px; 
+}
+.sign-up {
+    width: 80px;
+    height: 40px;
+    background: var(--blue);
+    border-radius: 5px;
+    border: none;
+    margin-left: 8px;
+}
+

@@ -1,0 +1,262 @@
+.title{
+    background:var(--bg);
+    box-sizing: border-box;
+}
+.title-name {
+    border-bottom: 1px solid var(--border-bottom);
+    padding-top: 20px;
+}
+
+.title h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--white);
+    border: 0.5px;
+    padding: 25px;
+    text-align: center;
+}
+
+.title-content{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 189px;
+    padding-top: 50px;
+}
+.date {
+    padding-top: 35px;
+}
+
+.banner-content{
+    padding-left: 30px;
+}
+
+.banner-content h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.banner-content .text-status {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.img-banner {
+    padding-left: 10px;
+}
+
+.text-blog-content {
+    padding-bottom: 60px;
+}
+
+.text-tutorial{
+    padding: 60px 189px 0 189px;
+}
+
+.text-tutorial h5{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #3E3E3E;
+    padding-bottom: 40px;
+}
+
+.text-tutorial p {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: var(--black);
+    
+}
+.users {
+    border-bottom: 1px solid var(--border-bottom);
+}
+
+.img-social{
+    position: absolute;
+    left: 50px;
+    padding-top: 380px;
+}
+
+.learn-faster{
+    background: #FAFBFF;
+    padding-bottom: 60px;
+}
+
+.box-comment{
+    padding: 60px 189px 0 189px;
+}
+
+.avt-share {
+    display: flex;
+    width: 90%;
+}
+
+.avt-share #avt {
+    width: 48px;
+    height: 48px;
+}
+
+.share{
+    display: flex;
+    margin-left: auto;
+    padding-top: 15px;
+}
+
+.text-name {
+    padding: 15px;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.text-name p{
+    color: var(--text-date);
+}
+
+.text-name span{
+    color: var(--blue);
+}
+
+.icon-social img{
+    padding-left: 20px;
+}
+
+.avt {
+    display: flex;
+}
+
+.avt .rep {
+    margin-left: auto;
+    width: 70px;
+    height: 29px;
+    border: 2px solid #E7E7E7;
+    border-radius: 3px;
+    background: var(--white);
+}
+
+.comment-times {
+    padding-top: 80px;
+}
+
+.title-comment-times {
+    border-bottom: 1px solid var(--border-bottom);
+    padding-bottom: 40px;
+}
+
+.title-comment-times h5{
+    font-family: 'Circular Std';
+    font-size: 36px;
+    line-height: 46px;
+    color: #3E3E3E;
+}
+
+.comment-user{
+    padding-top: 34px;
+    border-bottom: 1px solid var(--border-bottom);
+    padding-bottom: 40px;;
+}
+
+.name-date{
+    padding-left: 15px;
+    font-family: 'Circular Std';
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.opinion {
+    padding-left: 75px;
+    padding-top: 20px;
+}
+
+.leave-comment {
+    padding-top: 80px;
+}
+
+.leave-comment h5 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: #3E3E3E;
+}
+
+#note {
+    padding-top: 25px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    color: #989CA2;
+}
+
+.input-comment{
+    padding-top: 60px;
+}
+
+.name {
+    padding-left:29px;
+    Width:430px;
+    Height:60px;
+}
+
+.email {
+    padding-left:29px;
+    margin-left: 28px;
+    Width:430px;
+    Height:60px;
+}
+
+#comment-box {
+    padding: 20px;
+    margin-top: 20px;
+    Width:915px;
+    Height:260px;
+    font-family: 'Circular Std';
+    font-size: 17px;
+    line-height: 22px;
+    color: #989CA2;
+}
+
+.text {
+    font-family: 'Circular Std';
+    font-size: 17px;
+    line-height: 22px;
+    color: #989CA2;
+}
+
+
+.submit{
+    Width:957px;
+    height: 60px;
+    background: #EC5252;
+    border: none;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 120px;
+}
